@@ -2,8 +2,6 @@ package com.isen.test.service;
 
 import com.isen.test.dto.PersonneDTO;
 import com.isen.test.entity.PersonneEntity;
-import com.isen.test.repository.JDBC.DataRepositoryJDBC;
-import com.isen.test.repository.JDBC.DataRepositoryJDBCJDBCImpl;
 import com.isen.test.repository.JPA.DataRepositoryJPA;
 import org.springframework.stereotype.Service;
 

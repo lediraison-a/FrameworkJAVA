@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class DataRepositoryJDBCJDBCImpl implements DataRepositoryJDBC {
+public class DataRepositoryJDBCImpl implements DataRepositoryJDBC {
     private final JdbcTemplate jdbcTemplate;
 
-    public DataRepositoryJDBCJDBCImpl(JdbcTemplate jdbcTemplate) {
+    public DataRepositoryJDBCImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
