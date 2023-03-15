@@ -1,4 +1,4 @@
-# Api personneDTO
+# Api personne
 
 Le projet utilise gradle mais globalement c'est la meme avec maven.
 
@@ -13,22 +13,22 @@ Modifier le fichier application.properties en fonction de vos parametres mysql.
 
 ## API
 
-### List personneDTO
+### List personne
 
 ```shell
-curl --location --request GET 'http://localhost:8080/personneDTO'
+curl --location --request GET 'http://localhost:8080/personne'
 ```
 
-### Get personneDTO
+### Get personne
 
 ```shell
-curl --location --request GET 'http://localhost:8080/personneDTO/mathisg29@gmail.com'
+curl --location --request GET 'http://localhost:8080/personne/mathisg29@gmail.com'
 ```
 
-### Add personneDTO
+### Add personne
 
 ```shell
-curl --location --request PUT 'http://localhost:8080/personneDTO' \
+curl --location --request PUT 'http://localhost:8080/personne' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "id": "foo@bar.com",
@@ -37,10 +37,10 @@ curl --location --request PUT 'http://localhost:8080/personneDTO' \
 }'
 ```
 
-### Update personneDTO
+### Update personne
 
 ```shell
-curl --location --request POST 'http://localhost:8080/personneDTO' \
+curl --location --request POST 'http://localhost:8080/personne' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "id": "foo@bar.com",
